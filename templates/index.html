@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProD-Reeler!</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h1>ProD-Reeler!</h1>
+    <p>Your balance: <span id="balance">100</span></p>
+    <form id="play-form" method="POST">
+        <p>Bet size: <input type="number" name="bet_size" value="1" min="1" max="1000" required></p>
+        <button id="spin-button">Spin</button>
+    </form>
+    <div id="reel-container">
+        <div class="reel"></div>
+        <div class="reel"></div>
+        <div class="reel"></div>
+    </div>
+    <p id="result"></p>
+    <script src="/static/script.js"></script>
+</body>
+</html>
